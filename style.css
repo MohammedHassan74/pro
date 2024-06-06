@@ -1,0 +1,28 @@
+div {
+  position: relative;
+}
+
+.one {
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  background-color: aquamarine;
+  width: 60px;
+  padding: 9px;
+}
+
+.two {
+  background-color: #eee;
+  margin-left: 20px;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  float: left;
+  border-radius: 10px;
+  text-align: center;
+  transition: 1s;
+}
+
+.two:hover {
+  margin-left: 100px;
+}
